@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz Día de la Novia ❤️</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:linear-gradient(#2d4c7c,#0d1b2a);
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+text-align:center;
+overflow:hidden;
+}
+
+#inicio,#carta{
+padding:25px;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+background:#ff7eb3;
+color:white;
+}
+
+#carta{
+display:none;
+max-width:600px;
+background:rgba(255,255,255,.12);
+border-radius:20px;
+backdrop-filter:blur(8px);
+}
+
+h1{
+font-size:38px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="inicio">
+
+<h1>🐉</h1>
+
+<h2>Tengo una sorpresa para ti...</h2>
+
+<p>Presiona el botón para comenzar.</p>
+
+<button onclick="abrirCarta()">
+Abrir carta ❤️
+</button>
+
+</div>
+
+<div id="carta">
+
+<h1>Feliz Día de la Novia ❤️</h1>
+
+<p>
+
+Mi amor...
+
+Gracias por hacer cada uno de mis días más bonitos.
+
+Hoy quiero recordarte que eres una de las personas más importantes de mi vida.
+
+Así como Hipo y Astrid encontraron un hogar el uno en el otro...
+
+yo también encontré el mío contigo.
+
+🐉❤️
+
+</p>
+
+</div>
+
+<script>
+
+function abrirCarta(){
+
+document.getElementById("inicio").style.display="none";
+document.getElementById("carta").style.display="block";
+
+}
+
+</script>
+
+</body>
+</html>
